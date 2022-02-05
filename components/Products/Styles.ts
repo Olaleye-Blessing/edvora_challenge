@@ -80,5 +80,6 @@ export const StyledProductFilter = styled.aside`
 
     @media only screen and (${device.tablet}) {
         flex: 1 0 auto;
+        max-width: 22.8rem;
     }
 `;
