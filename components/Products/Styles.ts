@@ -62,7 +62,6 @@ export const Container = styled.section`
 
 export const StyledProductFilter = styled.aside`
     background: var(--black-1);
-    max-width: 22.8rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 1.5rem;
     padding: 2.4rem 3.455rem 4.25rem 3rem;

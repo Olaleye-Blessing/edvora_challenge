@@ -16,7 +16,6 @@ const ProductFilter: FC<IProductFilter> = ({
 }) => {
     return (
         <StyledProductFilter className="aside page__side">
-            {/* <div> */}
             <p className="aside__filter-head">Filter</p>
 
             <Select
@@ -43,7 +42,6 @@ const ProductFilter: FC<IProductFilter> = ({
                 onChange={handleFilterChange}
                 others={{ "aria-label": "Select a city" }}
             />
-            {/* </div> */}
         </StyledProductFilter>
     );
 };
