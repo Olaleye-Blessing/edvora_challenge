@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledSelect = styled.div`
     position: relative;
-    max-width: 16.845rem;
+    /* max-width: 16.845rem; */
     margin-bottom: 1.25rem;
 
     &::after {
