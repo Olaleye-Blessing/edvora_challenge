@@ -19,6 +19,7 @@ export const Global = createGlobalStyle`
         line-height: 1.5;
         background-color: var(--general-bg);
         color: var(--general-fg);
+        font-family: var(--font-family-general);
     }
 
     select {

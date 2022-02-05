@@ -13,5 +13,8 @@ export const Variables = createGlobalStyle`
         --white-1: rgba(250, 250, 250, 0.5);
         --white-2: rgba(203, 203, 203, 0.5);
         --white-3: rgba(250, 250, 250, 0.6);
+
+        --font-family-roboto: 'Roboto', sans-serif;
+        --font-family-general: 'Lato', sans-serif;
     }
 `;

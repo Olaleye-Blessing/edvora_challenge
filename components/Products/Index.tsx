@@ -15,10 +15,6 @@ const Index: FC<IProducts> = ({ groupedProducts }) => {
             {Object.keys(groupedProducts).map((productName) => {
                 let products = groupedProducts![productName];
 
-                // let productsCarousel = products.map((product, i) => (
-                //     <Product product={product} key={i} />
-                // ));
-
                 return (
                     <Container key={productName}>
                         <h3>{productName}</h3>

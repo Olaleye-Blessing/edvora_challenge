@@ -7,6 +7,7 @@ export const Container = styled.section`
     h3 {
         border-bottom: 0.1rem solid var(--white-2);
         padding-bottom: 1rem;
+        font-family: var(--font-family-roboto);
     }
 
     .slider {
